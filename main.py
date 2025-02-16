@@ -12,7 +12,7 @@ def define_env(env):
     current_year = datetime.now().year
 
     # Explicitly check for missing or empty values and assign defaults
-    request_url = "https://mattflixrequests.icadar.com/"
+    request_url = "mattflixrequests.icadar.com"
     plex_url = "https://app.plex.tv/"
     plex_libraries = os.getenv('PLEX_LIBRARIES') or "Movies and TV Shows"
     noreply_email = os.getenv('NOREPLY_EMAIL') or "noreply@example.com"
